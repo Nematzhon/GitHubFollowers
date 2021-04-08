@@ -132,7 +132,6 @@
 		02C649E32613959800A183FD /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				02FFB179261D5789008ABB5A /* Utilities */,
 				02FFB171261C32BE008ABB5A /* Managers */,
 				02C649F22613959C00A183FD /* Info.plist */,
 				028997F526173F630044D8E5 /* Support */,
@@ -150,13 +149,6 @@
 				02FFB172261C32DD008ABB5A /* NetworkManager.swift */,
 			);
 			path = Managers;
-			sourceTree = "<group>";
-		};
-		02FFB179261D5789008ABB5A /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 		02FFB17C261EC2EA008ABB5A /* Cells */ = {
