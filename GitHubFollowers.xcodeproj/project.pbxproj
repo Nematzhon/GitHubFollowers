@@ -23,6 +23,8 @@
 		02C64A1526159AC300A183FD /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C64A1426159AC300A183FD /* GFBodyLabel.swift */; };
 		02C64A182615A8FF00A183FD /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C64A172615A8FF00A183FD /* GFAlertVC.swift */; };
 		02FFB173261C32DD008ABB5A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FFB172261C32DD008ABB5A /* NetworkManager.swift */; };
+		02FFB17E261EC333008ABB5A /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FFB17D261EC333008ABB5A /* FollowerCell.swift */; };
+		02FFB182261EC373008ABB5A /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FFB181261EC373008ABB5A /* GFAvatarImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		02C64A1426159AC300A183FD /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		02C64A172615A8FF00A183FD /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		02FFB172261C32DD008ABB5A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		02FFB17D261EC333008ABB5A /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		02FFB181261EC373008ABB5A /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GFAvatarImageView.swift; path = GitHubFollowers/GFAvatarImageView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +73,13 @@
 		028997F226173E890044D8E5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				02FFB17C261EC2EA008ABB5A /* Cells */,
 				02C64A172615A8FF00A183FD /* GFAlertVC.swift */,
 				02C64A0926145E8200A183FD /* GFTextField.swift */,
 				02C64A1426159AC300A183FD /* GFBodyLabel.swift */,
 				02C64A0626145A8400A183FD /* GFButton.swift */,
 				02C64A112614FA1200A183FD /* GFTitleLabel.swift */,
+				02FFB181261EC373008ABB5A /* GFAvatarImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 		02C649E32613959800A183FD /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				02FFB179261D5789008ABB5A /* Utilities */,
 				02FFB171261C32BE008ABB5A /* Managers */,
 				02C649F22613959C00A183FD /* Info.plist */,
 				028997F526173F630044D8E5 /* Support */,
@@ -143,6 +150,21 @@
 				02FFB172261C32DD008ABB5A /* NetworkManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		02FFB179261D5789008ABB5A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		02FFB17C261EC2EA008ABB5A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				02FFB17D261EC333008ABB5A /* FollowerCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +238,7 @@
 			files = (
 				028997FD26188BC20044D8E5 /* User.swift in Sources */,
 				02C64A0A26145E8200A183FD /* GFTextField.swift in Sources */,
+				02FFB17E261EC333008ABB5A /* FollowerCell.swift in Sources */,
 				028997F72617478F0044D8E5 /* Follower.swift in Sources */,
 				02C64A042613A5F800A183FD /* FavoritesListVC.swift in Sources */,
 				02C64A0726145A8400A183FD /* GFButton.swift in Sources */,
@@ -225,6 +248,7 @@
 				02C64A1526159AC300A183FD /* GFBodyLabel.swift in Sources */,
 				02C64A122614FA1200A183FD /* GFTitleLabel.swift in Sources */,
 				02FFB173261C32DD008ABB5A /* NetworkManager.swift in Sources */,
+				02FFB182261EC373008ABB5A /* GFAvatarImageView.swift in Sources */,
 				02C649E52613959800A183FD /* AppDelegate.swift in Sources */,
 				02C649E72613959800A183FD /* SceneDelegate.swift in Sources */,
 				02C64A0D26148C5D00A183FD /* FollowerListVC.swift in Sources */,
